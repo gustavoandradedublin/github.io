@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>We Can Do It! - Home</title>
-   <!-- Adicione a tag <audio> sem o atributo autoplay -->
+   
 <audio id="backgroundAudio" loop>
     <source src="Sound/sound_background.mp3" type="audio/mp3">
 </audio>
 
-<!-- Adicione um botão com um emoji de autofalante -->
+<!-- emoji speaker -->
 <button onclick="toggleAudio()">
     <span role="img" aria-label="Speaker Emoji">🔊</span> Music
 </button>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="logo.png" alt="We Can Do It!"></a>
+        <a href="index.html"><img src="Images/logo.png" alt="We Can Do It!"></a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -27,14 +27,14 @@
             </ul>
         </nav>
     </header>
-    <!-- Banner laranja -->
+    <!-- Banner  -->
     <section class="banner">
         <div class="banner-content">
             <h1>Welcome to We Can Do It!</h1>
             <p>Your partner for top-notch services</p>
         </div>
     </section>
-    <!-- Conteúdo da página Home -->
+    <!-- Home -->
      
     <section class="home-content">
         <div class="overlay">
@@ -42,7 +42,7 @@
             
             <p>Explore our range of services designed to meet your unique needs. From cleaning to security and reception services, we deliver solutions that exceed expectations.</p>
             
-            <!-- Botão para a página de contato -->
+            <!-- link to get a quote -->
             <a href="contato.html" class="contact-button">Contact Us Now and Get a Quote</a>
         </div>
     </section>
@@ -51,7 +51,7 @@
     function toggleAudio() {
         var audio = document.getElementById("backgroundAudio");
 
-        // Verifique se o áudio está pausado e alterne entre reproduzir e pausar
+        // play audio
         if (audio.paused) {
             audio.play();
         } else {

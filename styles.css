@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #001f3f; /* Azul escuro */
-    color: #fff; /* Letras brancas */
+    background-color: #001f3f; 
+    color: #fff; 
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -15,11 +15,11 @@ header {
 }
 
 header img {
-    max-height: 50px; /* Ajuste conforme necessário */
+    max-height: 50px; 
 }
 
 nav {
-    flex: 1; /* Ocupa todo o espaço disponível */
+    flex: 1; 
     display: flex;
     justify-content: center;
 }
@@ -32,16 +32,16 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px; /* Espaçamento igual entre os links */
+    margin: 0 20px; /* links */
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
 }
-/* Estilos adicionais para a página Home */
+/*  Home Page */
 .home-banner {
-    background-color: #ff8c00; /* Laranja */
+    background-color: #ff8c00; 
     text-align: center;
     padding: 20px;
 }
@@ -55,19 +55,19 @@ nav a {
 }
 
 .overlay h1 {
-    font-size: 2.5em; /* Tamanho da fonte para o título */
+    font-size: 2.5em; 
     margin-bottom: 10px;
 }
 
 .overlay p {
-    font-size: 1.2em; /* Tamanho da fonte para o texto */
+    font-size: 1.2em; 
 }
 
 .home-content {
     position: relative;
     height: 100vh; 
-    background: url('Images/background_home.jpg') center/cover; /* Substitua 'background-image.jpg' pelo caminho da sua imagem de fundo */
-    color: #fff; /* Cor do texto no conteúdo */
+    background: url('Images/background_home.jpg') center/cover; 
+    color: #fff; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,15 +75,15 @@ nav a {
 }
 .contact-button {
     display: inline-block;
-    background-color: #ff8c00; /* Laranja */
-    color: #fff; /* Cor do texto */
+    background-color: #ff8c00; 
+    color: #fff; 
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 20px;
 }
-/* Estilos adicionais para a página Serviços */
+/* Service page */
 .banner {
     background-color: #ff8c00; /* Laranja */
     text-align: center;
@@ -91,29 +91,30 @@ nav a {
 }
 
 .banner-content {
-    max-width: 600px; /* Define a largura máxima do conteúdo do banner */
-    margin: 0 auto; /* Centraliza o conteúdo do banner */
+    max-width: 600px; 
+    margin: 0 auto; 
 }
 
 .services {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; /* Permite que os serviços quebrem para a próxima linha em telas menores */
+    flex-wrap: wrap;
 }
 
 .service {
     text-align: center;
     margin: 20px;
-    max-width: 300px; /* Define uma largura máxima para cada serviço */
+    width: 45%;
+    max-width: 300px;
 }
 
 .service img {
-    width: 100%; /* Ajusta o tamanho da imagem para ocupar 100% da largura do contêiner pai */
-    max-width: 200px; /* Define uma largura máxima para a imagem */
-    height: auto; /* Garante que a altura seja ajustada proporcionalmente à largura */
-}
-/* Estilos adicionais para a página Feedback */
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+
+}/* Feedback page */
 
 .feedback-container{
     position: relative;
@@ -134,7 +135,7 @@ nav a {
     border-radius: 15px;
 }
 .card {
-    background-color: #ffff008e; /* Cor de fundo dos cards */
+    background-color: #ffff008e; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -159,13 +160,10 @@ nav a {
     align-items: center;
 }
 
-.star-rating {
-    font-size: 30px;
-    cursor: pointer;
-}
+
 
 .star-rating .star {
-    color: #ffd700; /* Cor das estrelas */
+    color: #ffd700; 
     margin: 0 5px;
 }
 .reviews-animation-container {
